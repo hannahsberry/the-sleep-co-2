@@ -4,6 +4,9 @@
 
 <!--------External resources and metadata------->
 <head>
+    
+    <!------Viewport meta  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title> Contact Created by Hannah </title>
 
@@ -30,13 +33,13 @@
 <!------ Header Banner ------>
 
 <header class="padded grid text-center tall-100 editable">
-    <div class="header-nav col-12 grid"> 
-        <div class="col-4">
+    <div class="header-nav col-12-top grid"> 
+        <div class="col-4-middle">
             <a href="index.html" class="logo">
-                <h2> Contact Created by Hannah </h2>
+                <h2> Created by Hannah </h2>
             </a>
         </div>
-        <nav class="col-8 text-right">
+        <nav class="col-8-middle text-right">
             <a href="/index.html"> Home </a>
             <a href="/about.html"> About </a>
             <a href="/services.html"> Services </a>
@@ -61,9 +64,20 @@
         <h3> Contact us now for any wev development and design queries! </h3>
     </div>
 
-    <div class="col-6 padded"> 
-        <h2> Add contact form here </h2>
-    </div>
+    <div class="col-6 padded">
+        <form class="grid-center" action="https://formspree.io/f/xbjwlnyp" method="POST">
+          <div class="col-6_sm-12">
+            <input type="text" name="name" placeholder="Your Name">
+          </div>
+          <div class="col-6_sm-12">
+            <input type="email" name="_replyto" placeholder="Your Email">
+          </div>
+          <div class="col-12">
+            <textarea placeholder="Your Message"></textarea>
+            <input type="submit" value="Send" class="button">
+          </div>
+        </form>
+      </div>
 </section>
 
 <!---- Footer  ------>
