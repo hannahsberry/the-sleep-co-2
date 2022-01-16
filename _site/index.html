@@ -1,12 +1,52 @@
----
-layout: default
----
+<!DOCTYPE html>
 
-<!------ Header Banner ------>
+<html>
+
+<!--------External resources and metadata------->
+<head>
+
+    <title> Created by Hannah </title>
+
+    <!------Viewport meta  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--------Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,100&display=swap" rel="stylesheet" />
+
+    <!-- Gridlex -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css" />
+       
+     <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-----custom stylesheet to link html css ----->
+    <link rel="stylesheet" href="/style.css" />
+
+
+</head>
+
+<!-------Body for content -------->    
+<body>
+
+    <!------ Header Banner ------>
 
 <header class="padded grid text-center tall-100 editable">
 
-    {% include header-nav.html %}
+    <div class="header-nav col-12-top grid"> 
+    <div class="col-4-middle">
+        <a href="index.html" class="logo">
+            <h2> Created by Hannah </h2>
+        </a>
+    </div>
+    <nav class="col-8-middle text-right">
+        <a href="/index.html"> Home </a>
+        <a href="/about.html"> About </a>
+        <a href="/services.html"> Services </a>
+        <a href="/contact.html"> Contact </a>
+    </nav>
+</div>  
     
     <div class="col-12">
         <h1> <span class="featured-text"> Created <br /> by </span> <span class="featured-text-2"> Hannah </span> </h1>
@@ -158,3 +198,37 @@ layout: default
     </div>
 
 </section>
+
+
+<!---- Footer  ------>
+
+<footer class="grid-spaceBetween padded bg-dark">
+
+    <div class="col-4-bottom">
+        <h2 class="editable">
+            Let's<br />Chat
+        </h2>
+        <p class="editable">
+            Contact us to speak more about launching your business online!
+        </p>
+    </div>
+
+    <div class="col-6-botton">
+        <p class="editable">
+            <strong> Phone </strong> <a href="tel:#"> 0480243521 </a>
+        </p>
+        <p class="editable">
+            <strong> Email </strong> <a href="email:#"> createdbyhannahberry@gmail.com </a>
+        </p>
+        <p class="editable">
+            <strong> Instagram </strong> <a href="instagram:#"> @createdbyhannahberry </a>
+        </p>
+        <p class="editable">
+            <strong> Website </strong> <a href="website:#"> createdbyhannah.com </a>
+        </p>
+    </div>
+
+</footer>
+
+
+</body>
